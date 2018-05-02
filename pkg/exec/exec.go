@@ -45,7 +45,7 @@ func (p *Process) Stop() error {
 		return errors.Wrap(err, "kill process")
 	}
 
-	// unlockk process
+	// unlock process
 	p.Unlock()
 	return nil
 }
